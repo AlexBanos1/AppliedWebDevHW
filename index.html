@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Homework Assignment 6</title>
+    </head>
+    <body>
+        <h1 id="mainTitle">Homework Assignment 6</h1>
+        <h2 id="secondaryTitle">Click me to change my color =3</h2>
+        <script>
+            function secondaryTitleTextAction(event) {
+                event.preventDefault();
+
+                alert("Wow this is a very cool feature! =D")
+                event.target.style.borderColor = "purple"
+                secondaryTitleText.remove();
+            }
+
+            const mainTitleText = document.getElementById("mainTitle");
+            mainTitleText.addEventListener("mouseenter", mainTitletext.target.style.color = 'red');
+
+            const secondaryTitleText = document.getElementById("secondaryTitle");
+            secondaryTitleText.addEventListener("click", secondaryTitleTextAction);
+        </script>
+    </body>
+</html>
