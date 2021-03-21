@@ -1,0 +1,25 @@
+{
+  "name": "audio_recorder",
+  "version": "1.0.0",
+  "description": "Records computer audio",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexBanos1/AppliedWebDevHW.git"
+  },
+  "keywords": [
+    "audio"
+  ],
+  "author": "Alex Banos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexBanos1/AppliedWebDevHW/issues"
+  },
+  "homepage": "https://github.com/AlexBanos1/AppliedWebDevHW#readme",
+  "dependencies": {
+    "node-audiorecorder": "^2.2.0"
+  }
+}
